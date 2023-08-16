@@ -5,7 +5,7 @@ public class Strings {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String name = "vimal patel";
+		String name = "vimal ";
 		System.out.println(name);
 		
 		String vimal12345 = "Ravi Panwar";
