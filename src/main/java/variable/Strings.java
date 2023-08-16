@@ -8,8 +8,8 @@ public class Strings {
 		String name = "vimal patel";
 		System.out.println(name);
 		
-		String vimal = "Ravi Panwar";
-	    System.out.println(vimal);
+		String vimal12345 = "Ravi Panwar";
+	    System.out.println(vimal12345);
 	    
 	    
 	    String VP = "Mayank mukati";
