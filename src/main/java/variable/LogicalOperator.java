@@ -5,8 +5,8 @@ public class LogicalOperator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int a = 20;
-		int b = 20;
+		int a = 30;
+		int b = 30;
 		
 		if (a==b) {
 		System.out.println("True");
