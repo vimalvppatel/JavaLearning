@@ -6,7 +6,7 @@ public class ElseIF {
 		// TODO Auto-generated method stub
 
   int time = 24;
-	if (time < 24) {
+	if (time <= 24) {
 	System.out.println("Good Morning");
 	}
 	
