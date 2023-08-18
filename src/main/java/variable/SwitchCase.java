@@ -6,22 +6,20 @@ public class SwitchCase {
 		// TODO Auto-generated method stub
 
 		
-		int day = 7 ;
+		int day = 5 ;
 		switch (day) {
 		 
 		case 1 :
-		   
-			System.out.println("Today is Monday");
-	   
-		break ;
+		  System.out.println("Today is Monday");
+	    break ;
 		
 		case 2:
 			System.out.println("Today is Tuesday");
-		 break ;
+	    break ;
 		 
 		case 3 :
 			System.out.println("Today is Wednesday");
-		 break ;
+	    break ;
 		 
 		case 4 :
 			System.out.println("Today is Thrusday");
@@ -38,7 +36,7 @@ public class SwitchCase {
 		case 7 :
 			System.out.println("Today is sunday");
 	    break ;
-	    
+	  
 		}
 		
 	}
