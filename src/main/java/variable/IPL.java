@@ -17,16 +17,16 @@ public class IPL {
 	   
 	 WebElement dropdown = wb.findElement(By.cssSelector("[name=\"Batting_Team\"]"));
 	    Select s = new Select(dropdown);
-	    s.selectByIndex(3);
+	    s.selectByIndex(4);
 //	   s.selectByVisibleText("Delhi Capitals");
 	   
 	 WebElement drop2 = wb.findElement(By.cssSelector("[name=\"Bowling_Team\"]"));
 	    Select b = new Select(drop2);
-	    b.selectByIndex(2);
+	    b.selectByIndex(1);
 	   
 	 WebElement drop3 = wb.findElement(By.cssSelector("[name=\"City\"]"));
 	    Select c = new Select(drop3);
-	    c.selectByIndex(4);
+	    c.selectByIndex(3);
 	    
 	  WebElement target = wb.findElement(By.cssSelector("[name=\"Target\"]"));
 	  target.sendKeys("100");
@@ -43,6 +43,9 @@ public class IPL {
 	    
 	  WebElement submit = wb.findElement(By.cssSelector("[type=\"submit\"]"));
 	  submit.click();
+	  
+	  
+	  
 	}
 
 }
