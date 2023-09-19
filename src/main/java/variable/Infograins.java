@@ -3,15 +3,12 @@ package variable;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Infograins {
-
-	private static Object executeScript;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,7 +19,7 @@ public class Infograins {
         wb.get("https://www.infograinsdevelopment.com/infograins/");
         
         JavascriptExecutor js = (JavascriptExecutor)wb;
-        executeScript = js.executeScript("window.scrollBy(0,7200)");
+        js.executeScript("window.scrollBy(0,8500)");
         
         
         WebElement Name = wb.findElement(By.cssSelector("[name=\"name\"]"));
@@ -42,6 +39,7 @@ public class Infograins {
         
         WebElement submit = wb.findElement(By.cssSelector("[class=\"form_submit_btn\"]"));
         submit.click();
+        
         
 	}
 
