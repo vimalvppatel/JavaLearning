@@ -6,11 +6,17 @@ public class ArrayPractice {
 		// TODO Auto-generated method stub
 		
 		String[]name = {"Linites","Infobeans","47 Billion","Yash technology","NCS"};
-		  // System.out.println(name.length);  for fatch the length
+		String[]jobs = {"Quality assurance", "Frontend developer", "Backend developer","Team lead","Project manager"};
 		int i = 0;
-		for(i=0; i<name.length;i++) {
+		 for(i=0; i<name.length;i++) {
 			System.out.println(name[i]);
 		}
+		 
+		 System.out.println(" ");
+
+		 for(i=0; i<jobs.length;i++) {
+			 System.out.println(jobs[i]);
+		 }
 	  }
 	}
 
