@@ -16,8 +16,7 @@ public class ArrayPractice {
 		 for(i=0; i<jobs.length;i++) {
 			 System.out.println(" ");
 			 
-		 System.out.println(name[i] + jobs[i]);
-		 
+		 System.out.println(name[i] + jobs[i]);		 
 	  }
 	}
   }
