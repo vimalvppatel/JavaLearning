@@ -11,12 +11,13 @@ public class ArrayPractice {
 		 for(i=0; i<name.length;i++) {
 			System.out.println(name[i]);
 		}
-		 
 		 System.out.println(" ");
 
 		 for(i=0; i<jobs.length;i++) {
-			 System.out.println(jobs[i]);
-		 }
+			 System.out.println(" ");
+			 
+		 System.out.println(name[i] + jobs[i]);
+		 
 	  }
 	}
-
+  }
