@@ -37,7 +37,7 @@ public class LogicalOperator {
 		   System.out.println("This is Wrong");
 	   
 	      }
-	
+	 
 	    int A = 200;
 	    int B = 200;
 	   if (A>=B) {

@@ -23,7 +23,8 @@ public class ScannerLearn {
 		 System.out.println(sum1);
 		 System.out.println(sum);
 		 
-	         // boolean b1 = sc.hasNextInt();
+	          // boolean b1 = sc.hasNextInt();
+		 
             //System.out.println(b1);
 
           //String str = sc.nextLine();	
@@ -37,3 +38,4 @@ public class ScannerLearn {
 	}
 
 }
+		

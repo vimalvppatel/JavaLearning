@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class WebsideChecker {
 
-	public static void main(String[] args) {       
+	public static void main(String[] argsl) {       
 		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);

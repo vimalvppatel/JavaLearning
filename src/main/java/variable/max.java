@@ -8,7 +8,7 @@ public class max {
 		int a = 100;
 		int b = 800 ;
 	System.out.println(Math.max(a, b));
-
+ 
 	}
 
 }
