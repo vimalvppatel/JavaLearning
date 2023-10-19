@@ -2,11 +2,11 @@ package Tutr;  // This is package
  
 public class PracticeMethod {  // This is class and if we dont have static in the class than we need to create class name object and than call the method.
 	
-	    void name2 (String Name) {  // String and name are the parameter in this method 
+	    void name2 (String Name) {  // Name is parameter in the method name2. And String is datatype of variable Name
 		System.out.println(Name + " Patel");
 	}
 	 
- 	    static void username (int x) {   // static is present in this method thats why we can directly call the method.
+ 	    static void username (int x) {   // static is present in this method thats why we can directly call the method using class name.
  	     System.out.println(x * 10); // 
 	   }
 	    
