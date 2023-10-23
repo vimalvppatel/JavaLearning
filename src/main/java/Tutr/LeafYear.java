@@ -6,7 +6,7 @@ public class LeafYear {
 		// TODO Auto-generated method stub
 
 			    // year to be checked
-			    int year = 1900;
+			    int year = 2013;
 			    boolean leap = false;
 
 			    // if the year is divided by 4

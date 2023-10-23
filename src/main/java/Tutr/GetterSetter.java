@@ -3,10 +3,11 @@ package Tutr;
 public class GetterSetter {
 	
 	
-	public	int id;
+	private	int id;
 	private String name;
-	private	long phno;
-		
+	private	long phno;         // Private modifier data ko execute karne ke liye getter setter ka use kiya jata he.
+		                                  // Automatically getter setter ko open karne ke liye 
+	                                      // Source >>> Click to Generat getter setter option  
 		public int getId() {
 			return id;
 		}
@@ -27,10 +28,9 @@ public class GetterSetter {
 		}
 		
 			
-			public static void main(String[]args) {
-				
-		
-	    GetterSetter Details = new GetterSetter();
+		public static void main(String[]args) {
+			
+		GetterSetter Details = new GetterSetter();
 	    Details.id=0;
 		Details.setId(10);
 		System.out.println(Details.getId());
