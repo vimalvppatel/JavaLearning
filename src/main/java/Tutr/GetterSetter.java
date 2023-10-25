@@ -31,7 +31,7 @@ public class GetterSetter {
 		public static void main(String[]args) {
 			
 		GetterSetter Details = new GetterSetter();
-	    Details.id=0;
+	        Details.id=0;
 		Details.setId(10);
 		System.out.println(Details.getId());
 		
