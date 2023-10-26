@@ -76,6 +76,7 @@ public class PracticeConstructor11 {    // CLASS NAME
 		this.name = name;
 		this.id = id;
 		this.d = d;
+		System.out.println("Hello");
 	}    
    }
 
