@@ -10,7 +10,7 @@ public class ArrayPractice {
 		int i = 0;
 		 for(i=0; i<name.length;i++) {
 			System.out.println(name[i]);
-		}
+		} 
 		 System.out.println(" ");
 
 		 for(i=0; i<jobs.length;i++) {

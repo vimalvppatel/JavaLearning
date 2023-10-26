@@ -7,6 +7,7 @@ public class SwitchCase {
 
 		
 		int day = 5 ;
+		
 		switch (day) {
 		 
 		case 1 :
@@ -21,7 +22,7 @@ public class SwitchCase {
 			System.out.println("Today is Wednesday");
 	    break ;
 		 
-		case 4 :
+		case 4 : 
 			System.out.println("Today is Thrusday");
 		break ;
 		

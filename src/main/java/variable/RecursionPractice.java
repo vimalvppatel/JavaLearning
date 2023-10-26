@@ -18,19 +18,22 @@ public class RecursionPractice {
 		 System.out.println(factorial(x));
 	  }	
 	}
+
 /*
-public class Main {
-     
-     Static int recreation(int n){
-     if (int n == 0; n==1;)
-    return1;
+ public class Main {
+   static int vimal(int n){
+    if(n == 0|| n == 1){
+     return 1;
    }
-     else {
-     return n * factorial (n-1);
-   }
-    public static void main(String []args){
-     int a = 5;
-     System.out.println (factorial(x));
-   }
+    else{
+     return(n * vimal(n-1));
+     }
  }
+ 
+  public static void main(String[]args){
+   int a = 5;
+   System.out.println(vimal(a));
+   
+   }
+}
  */

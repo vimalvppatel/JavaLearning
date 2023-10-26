@@ -22,6 +22,7 @@ public class Infograins {
         js.executeScript("window.scrollBy(0,8500)");
         
         
+        
         WebElement Name = wb.findElement(By.cssSelector("[name=\"name\"]"));
         Name.sendKeys("Vimal patel");
         

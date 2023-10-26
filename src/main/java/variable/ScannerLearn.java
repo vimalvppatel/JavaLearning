@@ -13,7 +13,7 @@ public class ScannerLearn {
 		 int a = sc.nextInt();
 	
 		 System.out.println("Taking input from user b ");
-		 int b = sc.nextInt();
+	 	 int b = sc.nextInt();
 		
 		 System.out.println("Sum of these 2 numbers");
 		 System.out.println("Multiple these two numbers");

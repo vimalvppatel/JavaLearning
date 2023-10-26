@@ -8,8 +8,10 @@ public class LeafYearChecker {
 		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);
+		sc.next();
+	
 		
-		
+	 	
 
 	}
 

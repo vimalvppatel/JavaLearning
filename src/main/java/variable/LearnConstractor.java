@@ -24,6 +24,7 @@ public class LearnConstractor {
     	 LC.Userdata();
     	 LC.Userdata(20);
     	 LC.Userdata(10, "Vimal");
+    	 LC.Userdata(10);
    
        }
 

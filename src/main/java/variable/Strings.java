@@ -24,7 +24,7 @@ public class Strings {
 	    int Vpatel = name.length();
 	     System.out.println(Vpatel);
 	
-	 
+	  
 	    String VIP = "      Patelvimal"; 
 	    String vpatel = VIP.trim();
 	    System.out.println(vpatel);

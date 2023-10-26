@@ -8,6 +8,6 @@ public class ArrayProgram {
   String [] Name = {"Vimal", "Patel", "Gautam", "Patel", "Mayank", "Kanwa"}; // Array ke under bahut sare variables ho skate he
      System.out.println(Name.length); // Execute with indexing
 
-	 }
+	  }
 
 }

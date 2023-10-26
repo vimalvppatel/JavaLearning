@@ -19,7 +19,7 @@ public static void main ( String []args) {
 	  System.out.println("Enter second number 2");
 	     int b = sc.nextInt();
 	    		
-	 
+	  
 	   int Sum = a + b;
 	    
 	   System.out.println (Sum);
